@@ -1,14 +1,14 @@
 FROM python:3.7-alpine
 
-LABEL "com.github.actions.name"="S3 CopyPaste"
-LABEL "com.github.actions.description"="Copy Paste a file to an AWS S3 bucket - Fork of jakejarvis/s3-sync-action"
+LABEL "com.github.actions.name"="S3 Copy File to Destination"
+LABEL "com.github.actions.description"="Copy Paste a file to an AWS S3 bucket directory"
 LABEL "com.github.actions.icon"="copy"
-LABEL "com.github.actions.color"="green"
+LABEL "com.github.actions.color"="blue"
 
-LABEL version="0.2.0"
-LABEL repository="https://github.com/tpaschalis/s3-cp-action"
-LABEL homepage="https://tpaschalis.github.io"
-LABEL maintainer="Paschalis Tsilias <paschalist0@gmail.com>"
+LABEL version="0.1.0"
+LABEL repository="https://github.com/NayamAmarshe/cp-file-to-s3"
+LABEL homepage="https://github.com/NayamAmarshe/"
+LABEL maintainer="Nayam Amarshe <nayam@amars.he>"
 
 # https://github.com/aws/aws-cli/blob/master/CHANGELOG.rst
 ENV AWSCLI_VERSION='1.16.232'
